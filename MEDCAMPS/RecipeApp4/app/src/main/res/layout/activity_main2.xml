@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c9e165"
+    android:orientation="vertical"
+    tools:context=".main">
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload Post"
+        android:background="#fff"
+        android:layout_marginLeft="20dp"
+        />
+
+    <Button
+        android:id="@+id/text_view_show_uploads"
+        android:layout_width="86dp"
+        android:layout_height="49dp"
+        android:layout_alignTop="@+id/button_upload"
+        android:layout_alignBottom="@+id/button_upload"
+        android:layout_marginStart="25dp"
+        android:layout_toEndOf="@+id/button_upload"
+        android:background="#fff"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Home Page"
+        android:textSize="16sp" />
+    <Button
+        android:id="@+id/text_view_show_upload"
+        android:layout_width="86dp"
+        android:layout_height="49dp"
+        android:layout_alignTop="@+id/button_upload"
+        android:layout_alignBottom="@+id/button_upload"
+        android:layout_marginStart="25dp"
+        android:layout_toEndOf="@+id/button_upload"
+        android:background="#fff"
+        android:gravity="center"
+        android:text="recycler"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/text_view_show_upload3"
+        android:layout_width="86dp"
+        android:layout_height="49dp"
+        android:layout_alignTop="@+id/button_upload"
+        android:layout_alignBottom="@+id/button_upload"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@+id/button_upload"
+        android:background="#fff"
+        android:gravity="center"
+        android:onClick="ShowProfile"
+        android:text="PROFILE"
+        android:textSize="16sp"
+
+        />
+
+
+</LinearLayout>

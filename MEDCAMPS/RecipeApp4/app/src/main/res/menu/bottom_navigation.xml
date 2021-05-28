@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Home"
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home"/>
+    <item
+        android:title="Hospital"
+        android:id="@+id/hospital"
+        android:icon="@drawable/ic_hospital"/>
+
+    <item
+        android:title="Notification"
+        android:id="@+id/notifications"
+        android:icon="@drawable/ic_notifications"/>
+    <item
+        android:title="Document"
+        android:id="@+id/document"
+        android:icon="@drawable/ic_assignment"/>
+    <item
+        android:title="Account"
+        android:id="@+id/account"
+        android:icon="@drawable/ic_account"/>
+</menu>

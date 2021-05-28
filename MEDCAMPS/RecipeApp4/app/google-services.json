@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "341434189328",
+    "firebase_url": "https://recipeapp-be52a.firebaseio.com",
+    "project_id": "recipeapp-be52a",
+    "storage_bucket": "recipeapp-be52a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341434189328:android:ac5937e72da6bbe7cf2c95",
+        "android_client_info": {
+          "package_name": "com.example.recipeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "341434189328-pgocuoqjbnn1qdvdkqo20oq5nr9i891d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYDp5rYCHUaKMUONJrbBdtyoAJMdwxHpE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "341434189328-pgocuoqjbnn1qdvdkqo20oq5nr9i891d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

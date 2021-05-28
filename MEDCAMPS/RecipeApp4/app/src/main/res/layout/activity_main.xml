@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#c9e165"
+    tools:context=".MainActivity">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="MED"
+    android:textSize="30dp"
+    android:layout_marginLeft="100dp"
+    android:textColor="#ff00"
+    android:layout_marginTop="20dp"
+    android:textStyle="bold"/>
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="CAMP"
+       android:textSize="30dp"
+       android:layout_marginLeft="170dp"
+       android:textColor="#000"
+       android:layout_marginTop="20dp"
+       android:textStyle="bold"/>
+
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="20dp"
+       android:layout_marginTop="90dp"
+       android:text="Hi User"
+       android:textColor="#000"
+       android:textSize="30dp"
+       android:textStyle="bold" />
+
+
+   <EditText
+       android:id="@+id/txt_searchtext"
+       android:layout_width="300dp"
+       android:layout_height="45sp"
+       android:layout_marginTop="150dp"
+       android:background="#fff"
+       android:hint="Search"
+       android:textSize="22sp"
+       android:layout_marginLeft="20dp"/>
+
+   <androidx.recyclerview.widget.RecyclerView
+       android:id="@+id/recyclerview"
+       android:layout_width="match_parent"
+       android:layout_height="500dp"
+       android:layout_below="@id/txt_searchtext"
+       android:scrollbars="vertical">
+
+   </androidx.recyclerview.widget.RecyclerView>
+
+   <com.google.android.material.bottomnavigation.BottomNavigationView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       app:menu="@menu/bottom_navigation"
+       android:background="#c9e165"/>
+  
+</RelativeLayout>
+
+
+
+
